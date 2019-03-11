@@ -1,0 +1,15 @@
+
+= HOW TO BUILD AND INSTALL =
+
+To make this source code work under MingW32 environment, I have rewritten
+the build system using my own dependency based Makefile program.
+
+To build this package, enter command line and enter:
+
+  make all
+  
+You just need the MingW compiler set with GNU Make program, no other utilities
+are need for this.
+
+Cheers~, Happy chessing~
+
