@@ -17,19 +17,19 @@ RC=windres
 FL=flex
 BS=bison
 LD=$(TARGET)gcc
-RM=del
+RM=rm
 
 # Configuration
 ARFLAGS=cr
 PPFLAGS=
 ASFLAGS=
-CCFLAGS=-O3 -ffast-math -DVERSION=\"5.08\"
+CCFLAGS=-m32 -O3 -ffast-math -DVERSION=\"5.08\"
 CXFLAGS=
 DBFLAGS=
-RCFLAGS=
+RCFLAGS=-Fpe-i386
 FLFLAGS=
 BSFLAGS=
-LDFLAGS=
+LDFLAGS=-m32
 EXFLAGS=
 
 # Projects
